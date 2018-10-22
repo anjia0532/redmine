@@ -95,12 +95,6 @@ RUN set -eux; \
 # tiny_tds 1.0.x requires OpenSSL 1.0
 # see https://github.com/rails-sqlserver/tiny_tds/commit/3269dd3bcfbe4201ab51aa2870a6aaddfcbdfa5d (tiny_tds 1.2.x+ is required for OpenSSL 1.1 support)
 		libssl1.0-dev \
-		libxml2-dev \
-		zlib1g-dev \
-		openssl \
-		build-essential \
-		ruby-dev \
-		liblzma-dev \
 	; \
 	rm -rf /var/lib/apt/lists/*; \
 	\
